@@ -1,0 +1,15 @@
+---
+  Description: ""
+  Resources:
+    test48D3E1BA:
+      Type: "AWS::Lambda::Function"
+      Properties:
+        Handler: "index.handler"
+        Runtime: "nodejs12.x"
+        FunctionName: "test"
+        MemorySize: 128
+        Timeout: 900
+      Metadata:
+        aws:asset:path: "./"
+        aws:asset:property: "Code"
+

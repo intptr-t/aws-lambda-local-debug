@@ -1,0 +1,21 @@
+{
+  "name": "05-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.71",
+    "@types/node": "^14.14.22",
+    "@types/source-map-support": "^0.5.3",
+    "aws-sdk": "^2.831.0",
+    "esbuild": "^0.8.34"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  }
+}

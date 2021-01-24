@@ -1,0 +1,19 @@
+---
+  Description: ""
+  Resources:
+    test48D3E1BA:
+      Type: "AWS::Lambda::Function"
+      Properties:
+        Handler: "index.handler"
+        Runtime: "nodejs12.x"
+        FunctionName: "test"
+        MemorySize: 128
+        Timeout: 900
+        Environment:
+          Variables:
+            Override: "hoge"
+            EnvParam: ",world"
+      Metadata:
+        aws:asset:path: "../dist"
+        aws:asset:property: "Code"
+
