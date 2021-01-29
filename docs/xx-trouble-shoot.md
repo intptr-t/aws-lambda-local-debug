@@ -30,3 +30,5 @@ competent_elion
 また、Docker Desktopのダッシュボードから削除する場合は、以下画像のゴミ箱アイコンを選択すれば停止+削除できます。
 
 <img src="./media/error-already-allocated.png" alt="起動済みエラーDocker Desktopから削除">
+
+Back to [README](../README.md)
